@@ -4,19 +4,25 @@
 body {
   background: rgb(0, 0, 0);
   font-family: "Inter", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
+.header-section {}
 
 .nav {
-  max-width: 1060px;
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid red ;
   margin: 0 auto;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 57px;
 }
 
-.nav-tittle{
+.nav-tittle {
   font-size: 28px;
   color: rgb(230, 83, 60);
   font-weight: 800;
@@ -24,7 +30,7 @@ body {
 
 .nav label i {
   color: rgb(255, 255, 255);
-  visibility: hidden;
+  display: none;
 }
 
 .btn-nav {
@@ -50,27 +56,160 @@ ul>li>a {
   font-weight: 400;
 }
 
+/* Banner section */
 
+.banner-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border: 2px solid salmon;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 100px;
+}
 
+.banner-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.banner-description,
+.footer-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.btn-primary {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+}
+
+.btn-download {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  box-sizing: border-box;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 10px 40px;
+}
+
+.banner-img {
+  width: 100%;
+  position: relative;
+}
+
+.video-tutorial {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  color: white;
+  width: 50%;
+  height: 96px;
+  bottom: 100px;
+  right: 350px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.video-tutorial-text {
+  display: flex;
+  flex-direction: column;
+  height: 96px;
+}
+
+.video-tutorial-text>h1 {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.video-tutorial-text > p{
+  margin-bottom: 50px;
+}
+
+.workout-videos {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  width: 50%;
+  color: white;
+  height: 96px;
+  bottom: 350px;
+  right: 20px;
+  position: absolute;
+}
+
+.count {
+  color: rgb(250, 250, 249);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.count-text {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-weight: 400;
+}
 
 /* media query */
 
 @media screen and (max-width:576px) {
 
   body {
+    width: ;
     /* width: 350px; */
     /* margin: 0 auto; */
   }
 
-  /* .nav-icon{
+  .nav{
+    width: 80%;
+  }
+
+  .nav-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 200px;
-  } */
+    gap: 250px;
+  }
 
-  .list{
+  .nav label i {
+    display: block;
+  }
+
+  .list {
+    /* flex-direction: column; */
+    display: none;
+  }
+
+  .banner-container{
     flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .banner-tittle{
+    font-size: 40px;
   }
 
 }
