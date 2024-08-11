@@ -13,9 +13,7 @@ body {
 .nav {
   width: 80%;
   box-sizing: border-box;
-  border: 2px solid red ;
   margin: 0 auto;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +60,6 @@ ul>li>a {
   max-width: 80%;
   margin: 0 auto;
   display: flex;
-  border: 2px solid salmon;
   margin-top: 60px;
   margin-bottom: 60px;
   gap: 100px;
@@ -116,7 +113,7 @@ ul>li>a {
   width: 50%;
   height: 96px;
   bottom: 100px;
-  right: 350px;
+  right: 320px;
   position: absolute;
   display: flex;
   align-items: center;
@@ -126,14 +123,15 @@ ul>li>a {
 .circle {
   width: 40px;
   height: 40px;
-  background-color: red;
+  background-color: rgb(230, 83, 60);
+  ;
   border-radius: 50%;
 }
 
 .video-tutorial-text {
   display: flex;
   flex-direction: column;
-  height: 96px;
+  line-height: 10px;
 }
 
 .video-tutorial-text>h1 {
@@ -143,8 +141,8 @@ ul>li>a {
   text-align: left;
 }
 
-.video-tutorial-text > p{
-  margin-bottom: 50px;
+.video-tutorial-text>p {
+  /* margin-bottom: 50px; */
 }
 
 .workout-videos {
@@ -156,19 +154,71 @@ ul>li>a {
   color: white;
   height: 96px;
   bottom: 350px;
-  right: 20px;
+  right: 10px;
   position: absolute;
+  line-height: 10px;
 }
 
 .count {
   color: rgb(250, 250, 249);
   font-size: 24px;
   font-weight: 900;
+  /* padding-bottom: 10px; */
 }
 
 .count-text {
   color: rgba(239, 237, 232, 0.65);
   font-size: 16px;
+  font-weight: 400;
+}
+
+/* change your habit section styles */
+
+.change-habit {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.change-habit-content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.change-habit-tittle {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.change-habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.change-habit-card {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.change-habit-card img {
+  border-radius: 50%;
+}
+
+.change-habit-card-tittle,
+.get-started {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.change-habit-card-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -182,9 +232,6 @@ ul>li>a {
     /* margin: 0 auto; */
   }
 
-  .nav{
-    width: 80%;
-  }
 
   .nav-icon {
     display: flex;
@@ -202,14 +249,33 @@ ul>li>a {
     display: none;
   }
 
-  .banner-container{
+  .banner-container {
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
   }
 
-  .banner-tittle{
+  .banner-tittle {
     font-size: 40px;
+  }
+
+  .video-tutorial {
+    bottom: 220px;
+    right: 220px;
+  }
+
+  .workout-videos {
+    bottom: 450px;
+    right: 0;
+  }
+
+  .change-habit-card {
+    flex-direction: column;
+  }
+
+  .change-habit-tittle {
+    color: rgb(255, 255, 255);
+    font-size: 32px;  
   }
 
 }
