@@ -124,7 +124,6 @@ ul>li>a {
   width: 40px;
   height: 40px;
   background-color: rgb(230, 83, 60);
-  ;
   border-radius: 50%;
 }
 
@@ -239,14 +238,16 @@ ul>li>a {
   padding-left: 40px;
 }
 
-.run-tittle, .meet-our-team-tittle {
+.run-tittle,
+.meet-our-team-tittle {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 10px;
 }
 
-.run-description, .meet-our-team-description {
+.run-description,
+.meet-our-team-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -261,12 +262,12 @@ ul>li>a {
 
 /* meet our team section */
 
-.meet-our-team{
+.meet-our-team {
   width: 80%;
   margin: 0 auto;
 }
 
-.meet-our-team-content{
+.meet-our-team-content {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -287,12 +288,13 @@ ul>li>a {
   position: relative;
 }
 
-.meet-our-team-trainer > img{
+.meet-our-team-trainer>img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
-.meet-our-team-img-content{
+
+.meet-our-team-img-content {
   position: absolute;
   bottom: 0px;
   text-align: left;
@@ -312,16 +314,66 @@ ul>li>a {
   font-weight: 400;
 }
 
+/* footer section */
+
+.footer-section {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 70px;
+}
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+
+}
+
+.footer-1 {
+  width: 440px;
+}
+
+.footer-2 {
+  width: 180px;
+}
+
+
+.footer-tittle {
+  color: rgb(230, 83, 60);
+  font-size: 50px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer ul a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer li {
+  list-style: none;
+  text-align: left;
+}
+
+
+.footer-right {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 35px;
+  /* margin-bottom: 35px; */
+  padding-bottom: 35px;
+}
+
+hr {
+  width: 80%;
+  color: rgba(255, 255, 255, 0.1);
+}
+
 /* media query */
 
 @media screen and (max-width:576px) {
-
-  body {
-    width: ;
-    /* width: 350px; */
-    /* margin: 0 auto; */
-  }
-
 
   .nav-icon {
     display: flex;
@@ -339,13 +391,13 @@ ul>li>a {
     display: none;
   }
 
-  .banner-container {
+  .banner-container,
+  .footer {
     flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
   }
 
-  .banner-tittle, .meet-our-team-tittle {
+  .banner-tittle,
+  .meet-our-team-tittle {
     font-size: 40px;
   }
 
@@ -365,20 +417,24 @@ ul>li>a {
 
   .change-habit-tittle {
     color: rgb(255, 255, 255);
-    font-size: 32px;  
+    font-size: 32px;
   }
 
-  .run{
+  .run {
     flex-direction: column;
     gap: 30px;
   }
 
-  .run>img{
+  .run>img {
     width: 320px;
   }
 
   .meet-our-team-imgs {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-1 {
+    width: 400px;
   }
 
 }
