@@ -239,14 +239,14 @@ ul>li>a {
   padding-left: 40px;
 }
 
-.run-tittle {
+.run-tittle, .meet-our-team-tittle {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 10px;
 }
 
-.run-description {
+.run-description, .meet-our-team-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
@@ -257,6 +257,59 @@ ul>li>a {
   height: auto;
   padding: 30px;
   border-radius: 48px;
+}
+
+/* meet our team section */
+
+.meet-our-team{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.meet-our-team-content{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.meet-our-team-imgs {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.meet-our-team-trainer {
+  width: 305px;
+  height: 250px;
+  position: relative;
+}
+
+.meet-our-team-trainer > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.meet-our-team-img-content{
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.meet-our-team-trainer-tittle {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.trainer {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* media query */
@@ -292,7 +345,7 @@ ul>li>a {
     margin: 0 auto;
   }
 
-  .banner-tittle {
+  .banner-tittle, .meet-our-team-tittle {
     font-size: 40px;
   }
 
@@ -323,4 +376,9 @@ ul>li>a {
   .run>img{
     width: 320px;
   }
+
+  .meet-our-team-imgs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
