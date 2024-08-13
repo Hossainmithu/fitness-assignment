@@ -593,6 +593,10 @@ hr {
     flex-direction: column;
   }
 
+  .push-up-meaning{
+    width: 250px;
+  }
+
   /* bmi calculator media query */
 
   .bmi-calculator-content {
