@@ -9,24 +9,24 @@ body {
   margin: 0 auto;
 }
 
+
 .shape {
   font-family: "Grey Qo", cursive;
 }
 
-.header-section {}
+/* nav section styles */
 
 .nav {
   width: 80%;
-  box-sizing: border-box;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 57px;
+  margin-top: 4rem;
 }
 
 .nav-tittle {
-  font-size: 28px;
+  font-size: 1.7rem;
   color: rgb(230, 83, 60);
   font-weight: 800;
 }
@@ -37,25 +37,24 @@ body {
 }
 
 .btn-nav {
-  border-radius: 46px;
-  background: rgb(230, 83, 60);
-  border: none;
-  color: rgb(255, 255, 255);
   width: 62px;
   height: 24px;
-  /* padding: 10px; */
+  border-radius: 46px;
+  color: rgb(255, 255, 255);
+  background: rgb(230, 83, 60);
+  border: none;
 }
 
 .list {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 ul>li>a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -65,24 +64,24 @@ ul>li>a {
   max-width: 80%;
   margin: 0 auto;
   display: flex;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  gap: 100px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  gap: 6rem;
 }
 
 .banner-tittle {
   color: rgb(255, 255, 255);
-  font-size: 78px;
+  font-size: 4.5rem;
   font-weight: 900;
-  margin-bottom: 28px;
+  margin-bottom: 1.7rem;
 }
 
 .banner-description,
 .footer-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 28px;
+  margin-bottom: 1.7rem;
 }
 
 .btn-primary {
@@ -90,16 +89,16 @@ ul>li>a {
   background: rgb(230, 83, 60);
   border: none;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 1rem;
   padding: 10px 40px;
-  margin-bottom: 30px;
+  margin-bottom: 1.9rem;
 }
 
 .btn-download {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 42px;
   box-sizing: border-box;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   padding: 10px 40px;
 }
@@ -122,12 +121,12 @@ ul>li>a {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 1rem;
 }
 
 .circle {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: rgb(230, 83, 60);
   border-radius: 50%;
 }
@@ -140,14 +139,11 @@ ul>li>a {
 
 .video-tutorial-text>h1 {
   color: rgb(250, 250, 249);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 900;
   text-align: left;
 }
 
-.video-tutorial-text>p {
-  /* margin-bottom: 50px; */
-}
 
 .workout-videos {
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -165,14 +161,13 @@ ul>li>a {
 
 .count {
   color: rgb(250, 250, 249);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 900;
-  /* padding-bottom: 10px; */
 }
 
 .count-text {
   color: rgba(239, 237, 232, 0.65);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -181,7 +176,7 @@ ul>li>a {
 .change-habit {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 6rem;
 }
 
 .change-habit-content {
@@ -191,22 +186,22 @@ ul>li>a {
 
 .change-habit-tittle {
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 10px;
 }
 
 .change-habit-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 .change-habit-card {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 4rem;
 }
 
 .change-habit-card img {
@@ -217,14 +212,14 @@ ul>li>a {
 .get-started,
 .bmi-calculator-chart {
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .change-habit-card-description,
 .bmi-calculator-chart-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -235,21 +230,21 @@ ul>li>a {
   margin: 0 auto;
   /* height: 320px; */
   display: flex;
-  gap: 120px;
-  margin-bottom: 100px;
-  border-radius: 18px;
+  gap: 7rem;
+  margin-bottom: 6rem;
+  border-radius: 1rem;
   background: rgb(34, 34, 34);
 }
 
 .run-content {
-  padding-left: 40px;
+  padding-left: 2.5rem;
 }
 
 .run-tittle,
 .meet-our-team-tittle,
 .bmi-calculator-content-tittle {
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 10px;
 }
@@ -258,7 +253,7 @@ ul>li>a {
 .meet-our-team-description,
 .bmi-calculator-content-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -279,7 +274,7 @@ ul>li>a {
 
 .push-up-tittle {
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 10px;
   text-align: center;
@@ -293,9 +288,9 @@ ul>li>a {
 
 .push-up-container {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 4rem;
 }
 
 .push-up-meaning {
@@ -309,31 +304,21 @@ ul>li>a {
   border-radius: 30%;
 }
 
-.benefits-of-push-up{
+.benefits-of-push-up {
   width: 220px;
   margin: 0 auto;
   text-align: center;
 }
 
-.benefits-of-push-up-tittle{
+.benefits-of-push-up-tittle {
   color: silver;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
-.benefits-of-push-up li{
+.benefits-of-push-up li {
   color: white;
 }
 
-/* .push-up-container > div{
-  width: 220px;
-  height: 200px;
-}
-
-.push-up-container > img{
-  width: 200px;
-  height: 100px;
-  border-radius: 50%;
-} */
 
 /* BMI Calculator */
 
@@ -348,15 +333,22 @@ ul>li>a {
 
 .bmi-calculator-box {
   background: rgb(34, 34, 34);
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .bmi-calculator-data {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  gap: 50px;
-  padding-bottom: 100px;
+  gap: 3rem;
+  padding-bottom: 6rem;
+}
+
+.bmi-calculator-chart {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: left;
 }
 
 .bmi-calculator-table {
@@ -365,13 +357,13 @@ ul>li>a {
 
 table {
   border-collapse: collapse;
-  margin-top: 50px;
+  margin-top: 3rem;
 }
 
 th {
   color: rgb(255, 255, 255);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   text-align: left;
   padding: 10px 30px 10px 20px;
@@ -380,7 +372,7 @@ th {
 td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   padding: 10px 30px 10px 20px;
@@ -424,7 +416,7 @@ input {
 .meet-our-team-content {
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .meet-our-team-imgs {
@@ -457,14 +449,14 @@ input {
 
 .meet-our-team-trainer-tittle {
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0;
 }
 
 .trainer {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: .9rem;
   font-weight: 400;
 }
 
@@ -472,14 +464,14 @@ input {
 
 .footer-section {
   background: rgba(255, 255, 255, 0.1);
-  margin-top: 70px;
+  margin-top: 4.4rem;
 }
 
 .footer {
   width: 80%;
   margin: 0 auto;
   display: flex;
-  gap: 100px;
+  gap: 6rem;
 }
 
 .footer-1 {
@@ -488,13 +480,13 @@ input {
 
 .footer-2 {
   width: 180px;
-  margin-top: 50px;
+  margin-top: 3rem;
 }
 
 
 .footer-tittle {
   color: rgb(230, 83, 60);
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 800;
   text-align: left;
   margin-bottom: 20px;
@@ -502,14 +494,14 @@ input {
 
 .footer-2-list {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: .9rem;
   font-weight: 400;
   text-align: left;
 }
 
 .footer-right {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 400;
   text-align: center;
   margin-top: 35px;
@@ -520,12 +512,14 @@ input {
 hr {
   width: 80%;
   color: rgba(255, 255, 255, 0.1);
-  margin-top: 100px;
+  margin-top: 6rem;
 }
 
 /* media query */
 
 @media screen and (max-width:576px) {
+
+  /* nav media query */
 
   .nav-icon {
     display: flex;
@@ -539,30 +533,31 @@ hr {
   }
 
   .list {
-    /* flex-direction: column; */
     display: none;
   }
+
+  /* banner media query */
 
   .banner-container,
   .footer {
     flex-direction: column;
   }
 
-  .banner-tittle,
-  .meet-our-team-tittle,
-  .bmi-calculator-content-tittle {
-    font-size: 40px;
+  .banner-tittle {
+    font-size: 3.5rem;
   }
 
   .video-tutorial {
     bottom: 220px;
-    right: 220px;
+    right: 200px;
   }
 
   .workout-videos {
-    bottom: 450px;
+    bottom: 500px;
     right: 0;
   }
+
+  /* change habit query */
 
   .change-habit-card {
     flex-direction: column;
@@ -570,27 +565,44 @@ hr {
 
   .change-habit-tittle {
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
   }
+
+  /* run section query */
 
   .run {
     flex-direction: column;
     gap: 30px;
   }
 
+  .run-tittle {
+    font-size: 2.2rem;
+  }
+
   .run>img {
-    width: 320px;
+    width: 280px;
   }
 
-  .meet-our-team-imgs {
-    grid-template-columns: repeat(1, 1fr);
+  /* pushup media query */
+
+  .push-up-tittle {
+    font-size: 2.2rem;
   }
 
+  .push-up-container {
+    flex-direction: column;
+  }
+
+  /* bmi calculator media query */
 
   .bmi-calculator-content {
-    width: 430px;
+    width: 380px;
     margin: 0 auto;
     padding-left: 40px;
+  }
+
+  .bmi-calculator-content-tittle{
+    font-size: 2.5rem;
   }
 
   .bmi-calculator-data {
@@ -610,15 +622,27 @@ hr {
   .kg,
   .age,
   .sex {
-    width: 32%;
+    width: 31%;
   }
+
+   /* meet our team media query */
+
+   .meet-our-team-tittle{
+    font-size: 2rem;
+   }
+
+   .meet-our-team-imgs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* footer media query */
 
   .footer {
     gap: 0px;
   }
 
   .footer-1 {
-    width: 400px;
+    width: 350px;
   }
 
 }
